@@ -1,108 +1,15 @@
-
-@font-face {
-  font-family: 'Ubuntu';
-  src: url('Ubuntu-font.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Ubuntu', sans-serif;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: black;
-}
-.header {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #000000;
-  color: rgb(255, 255, 255);
-  font-family: 'Mv_MAG_Round_Bold';
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  height: 100%;
-}
-
-.logo-text {
-  font-family: 'MV Midhili', sans-serif;
-  font-size: 24px;
-}
-
+/* Add this CSS to align content and widget */
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-  text-align: left;
-}
-
-h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: rgb(0, 0, 0);
-}
-
-p {
-  font-size: 20px;
-  margin-bottom: 16px;
-  color: rgb(0, 0, 0);
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.project-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.project {
   display: flex;
-  margin-bottom: 40px;
 }
 
-.project-image {
-  flex: 0 0 40%;
-  margin-right: 20px;
-}
-
-.project-image img {
-  width: 100%;
-  height: auto;
-}
-
-.project-details {
+.content {
   flex: 1;
+  max-width: 70%; /* Adjust this to control the width of the content */
+  padding-right: 20px; /* Add spacing between content and widget */
 }
 
-.project-title {
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-
-.project-description {
-  font-size: 18px;
-}
-
-.container,
-.project-list,
-.project {
-  border: none;
-  padding: 0;
+.widget-container {
+  flex: 1;
+  max-width: 30%; /* Adjust this to control the width of the widget */
 }
